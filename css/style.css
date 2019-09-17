@@ -1,0 +1,17 @@
+header,
+nav,
+section,
+footer {
+    width: 100%;
+    height: 150px;;
+    background-color: beige;
+    margin: 5px;
+}
+
+header {
+    height: 30vh;
+}
+
+nav {
+    height: 70px;
+}

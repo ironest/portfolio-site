@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    height: 40vh;
+    min-height: 300px;
     background-image: url("../img/big_background.jpg"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
@@ -17,6 +17,7 @@ header {
 
     position: relative;
     z-index: 1;
+    padding: 20px;
 }
 
 #overlay {
@@ -30,7 +31,7 @@ header {
 header h1, header p {
     color: #FFF;
     text-align: center;
-    margin: 15px 0;
+    margin: 10px 0;
     font-size: 34px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     z-index: 1;
@@ -38,6 +39,7 @@ header h1, header p {
 
 header p {
     font-size: 24px;
+    margin: 0;
 }
 
 
@@ -104,10 +106,14 @@ section:nth-child(even){
 .container {
     max-width: 960px;
     width: 100%;
-    border: 2px solid blue;
+    border: 2px solid blue; */
 }
 
 footer {
     background-color: #0A2459;
     height: 150px;
+}
+
+section * {
+    border: 1px solid red;
 }

@@ -1,17 +1,40 @@
-header,
-nav,
-section,
-footer {
-    width: 100%;
-    height: 150px;;
-    background-color: beige;
-    margin: 5px;
-}
-
-header {
-    height: 30vh;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    height: 70px;
+    height: 60px;
+    background-color: #F29F05;
+}
+
+nav ul,
+nav ul li
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: 375px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 5px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #0A2459;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }

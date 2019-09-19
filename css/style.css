@@ -106,6 +106,12 @@ section {
     background-color: #FFF;
     min-height: 200px;
     padding: 20px 0;
+    /* To push the footer till the end of the document
+       150px = footer height
+        60px = nav height
+       340px = header height
+    */
+    min-height: calc(100vh - 150px - 60px - 340px);
 }
 
 .columnLayout {

@@ -58,6 +58,9 @@ header img {
 nav {
     height: 60px;
     background-color: #F29F05;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,1);
+    box-shadow: 0px 0px 50px 50px rgba(0,0,0,1);
 }
 
 nav ul,
@@ -84,6 +87,7 @@ nav ul li a {
     text-decoration: none;
     color: #FFF;
     padding: 10px 5px;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
@@ -95,25 +99,103 @@ nav ul li a:hover {
 section {
     background-color: #FFF;
     min-height: 200px;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+section h2 {
+    color: #F29F05;
 }
 
 section:nth-child(even){
     background-color: #C9DBF2;
 }
 
-.container {
-    max-width: 960px;
-    width: 100%;
-    border: 2px solid blue; */
+section:nth-child(even) h2 {
+    color: #0A2459;
+}
+
+section .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.aboutIcons {
+    width: 80px;
+    margin: 5px 20px;
+}
+
+.aboutPar {
+    font-size: 20px;
+    color: #666;
+    margin: 10px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px)  {
+
+    .aboutPar {
+        flex-basis: 450px;
+        flex-grow: 0;
+        text-align: left;
+    }
+
+    section .row:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    section .row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
 }
 
 footer {
     background-color: #0A2459;
     height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-section * {
-    border: 1px solid red;
+footer p {
+    text-align: center;
+    color: #C9DBF2;
+    font-size: 15px;
+}
+
+#socialMediaList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#socialMediaList li
+{
+    margin: 10px;
+}
+
+.socialMediaIcon {
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+}
+
+.socialMediaIcon:hover {
+    opacity: 1;
+    position: relative;
+    top: -3px
 }

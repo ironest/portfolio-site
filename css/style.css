@@ -192,3 +192,51 @@ footer p {
     position: relative;
     top: -3px
 }
+
+.expSquare {
+    margin: 20px 20px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.expIcons {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+}
+
+.expIcons:hover {
+    transform: scale(1.1);
+}
+
+.expDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.expRole,
+.expCompany,
+.expPeriod,
+.expLocation {
+    color: gray;
+    margin: 3px 0;
+}
+
+.expRole {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.expCompany {
+    color: black;
+}
+

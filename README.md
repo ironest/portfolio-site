@@ -1,7 +1,9 @@
 # portfolio-site
 
-Live: [dreamy-hodgkin-fe7328.netlify.com/](https://dreamy-hodgkin-fe7328.netlify.com/)
+Live: [dreamy-hodgkin-fe7328.netlify.com](https://dreamy-hodgkin-fe7328.netlify.com)
+
 Repo: [github.com/ironest/portfolio-site](https://github.com/ironest/portfolio-site)
+
 Contributors: [Riccardo Carzaniga](https://github.com/ironest)
 
 ## Description

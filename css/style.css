@@ -90,7 +90,7 @@ nav ul li a {
     text-decoration: none;
     color: #FFF;
     padding: 10px 5px 3px 5px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 nav ul li a:hover {
@@ -125,7 +125,7 @@ section {
     flex-flow: row wrap;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 section h2 {
@@ -151,7 +151,7 @@ section .row {
 }
 
 .aboutIcons {
-    width: 80px;
+    width: 100px;
     margin: 5px 20px;
 }
 
@@ -162,17 +162,7 @@ section .row {
     flex-grow: 1;
     text-align: center;
     max-width: 650px;
-}
-
-@media screen and (min-width: 769px)  {
-
-    .aboutPar {
-        text-align: left;
-    }
-
-    section .row:nth-child(odd) {
-        flex-direction: row-reverse;
-    }
+    line-height: 25px;
 }
 
 footer {
@@ -263,3 +253,88 @@ footer p {
     color: black;
 }
 
+.projComponent,
+.projComponent * {
+    /* border: 1px solid red; */
+}
+
+.projComponent {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.projPrev {
+    width: 100%;
+}
+
+.projIcon {
+    width: 25px;
+    margin-top: 5px;
+}
+
+.projComponentHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin: 20px 20px 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.projComponentHeader h3 {
+    font-size: 20px;
+    margin: 0 5px 0 0;
+}
+
+.projComponent p
+{
+    color: #666;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px 0 10px;
+    line-height: 22px;
+}
+
+.projLink {
+    border-top: 1px solid #ccc;
+}
+
+.projComponent a 
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold
+}
+
+.projComponent a:hover
+{
+    color: #F29F05;
+    text-decoration: underline;
+    font-weight: bold
+}
+
+.projComponentContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 100%;
+    margin: 10px 20px;
+}
+
+
+@media screen and (min-width: 769px)  {
+
+    .aboutPar {
+        text-align: left;
+    }
+
+    section .row:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+}

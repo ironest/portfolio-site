@@ -328,6 +328,93 @@ footer p {
     margin: 10px 20px;
 }
 
+.postComponent {
+    margin: 20px;
+}
+
+.postComponent * {
+    padding: 0;
+    margin: 0;
+}
+
+.postContent,
+.postHeader,
+.postFooter {
+    margin: 20px;
+}
+
+.postComponent {
+    max-width: 700px;
+    border: 1px solid #ccc;
+}
+
+.postHeader {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postMetadata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.postHeader h3 {
+    margin-top: 10px;
+    flex-basis: 100%;
+}
+
+.postAuthorIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc ;
+    padding: 2px;
+}
+
+.postAuthor{
+    color: #000;
+    font-size: 16px;
+}
+
+.postDate {
+    color: #bbb;
+    margin: 0;
+    font-size: 16px;    
+}
+
+.postReadMore {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: right;
+    color: #bbb;
+    text-decoration: underline;
+}
+
+.postFooter {
+    color: #bbb;
+    display: flex;
+    align-items: flex-end;
+}
+
+.postCountLike {
+    margin-left: 10px;
+}
+
+.postResponses {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.postLike,
+.postComment {
+    width: 22px;
+    height: 22px;
+}
+
 
 @media screen and (min-width: 769px)  {
 

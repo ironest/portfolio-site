@@ -343,6 +343,12 @@ footer p {
     margin: 20px;
 }
 
+.postContent {
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 .postComponent {
     max-width: 700px;
     border: 1px solid #ccc;
@@ -385,12 +391,19 @@ footer p {
 }
 
 .postReadMore {
-    display: inline-block;
-    width: 100%;
     margin-top: 10px;
-    text-align: right;
     color: #bbb;
     text-decoration: underline;
+    align-self: flex-end;
+}
+
+.postReadMore:hover {
+    color: #F29F05;
+}
+
+.postWithImg {
+    margin: 10px 0;
+    width: 100%;
 }
 
 .postFooter {
@@ -415,6 +428,11 @@ footer p {
     height: 22px;
 }
 
+.postLong {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
 
 @media screen and (min-width: 769px)  {
 

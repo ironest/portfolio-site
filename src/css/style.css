@@ -151,6 +151,16 @@ section .row {
     margin: 20px 0;
 }
 
+section .row a {
+    text-decoration: none;
+    color: #666;
+}
+
+section .row a:hover {
+    text-decoration: underline;
+    color: #F29F05;
+}
+
 .aboutIcons {
     width: 100px;
     margin: 5px 20px;

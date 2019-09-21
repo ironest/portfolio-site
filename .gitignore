@@ -1,2 +1,5 @@
 # Ignore temp files
 tmp*.*
+
+#Apple macOS files
+.DS_Store

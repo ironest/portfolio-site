@@ -112,7 +112,7 @@ section {
        340px = header height
         40px = 20px of padding (top and bottom)
     */
-    min-height: calc(100vh - 150px - 60px - 340px -40px );
+    min-height: calc(100vh - 150px - 60px - 340px - 40px);
 }
 
 .columnLayout {

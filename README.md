@@ -1,6 +1,6 @@
 # portfolio-site
 
-Live: [dreamy-hodgkin-fe7328.netlify.com](https://dreamy-hodgkin-fe7328.netlify.com)
+Live: [ironest.netlify.com](https://ironest.netlify.com)
 
 Repo: [github.com/ironest/portfolio-site](https://github.com/ironest/portfolio-site)
 
@@ -20,7 +20,8 @@ As an aspiring developer, it is important to be able to communicate and demonstr
 
 ### Functionality / features
 
-  * In progress
+  * Responsive Design
+  * Fixed Navigation bar (in progress)
 
 ### Sitemap
 

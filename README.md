@@ -56,15 +56,16 @@ From there, any other webpage is reacheable through the navigation bar.
 
 ### Target audience
 
-My portfolio audience can be broken down into the following categories:
- * Potential employers
- * Internship providers
- * Peers such as:
+The target audience for my portfolio can be broken-down into the following categories:
+  * Potential employers
+  * Internship providers
+  * Peers such as:
     * Project Collaborators
     * Classmates
     * Friends & Family
-
-As of now (September 2019) the website is only available in english language; as a consequence, the target audience is limited to English speakers but, due to my strong Italian roots, in future I could implement a parallel version for Italian speakers. No other demographics discrimination of age, gender, ability, sexual orientation, race or religion.
+  
+At the time of publication (September, 2019) the website is only available in English. Therefore, the target audience, is limited to English speakers. However, due to my strong Italian heritage, in the future, I wish to implement an identical version for Italian speakers.
+My design does not discriminate against any users on the basis of age, gender, ability, sexual orientation, race or religion. It is my desire for my website to be as inclusive as possible.
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 

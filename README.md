@@ -25,11 +25,17 @@ As an aspiring developer, it is important to be able to communicate and demonstr
 
 ### Sitemap
 
-  * In progress
+The portfolio website is made of 4 webpages with landing page represented by the index.html which also serves as "About Me".
+From there, any other webpage is reacheable through the navigation bar.
+
+![Sitemap](./docs/sitemap.png "Diagram showing the Site Map")
 
 ### Screenshots
 
-  * In progress
+<img src="./docs/screenshot_index.png" alt="Screenshot of the index webpage" width="250" />
+<img src="./docs/screenshot_experience.png" alt="Screenshot of the experience webpage" width="250" />
+<img src="./docs/screenshot_projects.png" alt="Screenshot of the projects webpage" width="250" />
+<img src="./docs/screenshot_blog.png" alt="Screenshot of the blog webpage" width="250" />
 
 ### Target audience
 

@@ -32,12 +32,12 @@ header {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(105, 13, 196, 0.4);
     z-index: -1;
 }
 
 header h1, header p {
-    color: #FFF;
+    color: rgb(236, 192, 255);
     text-align: center;
     margin: 10px 0;
     font-size: 34px;
@@ -69,7 +69,7 @@ header img {
 
 nav {
     height: 60px;
-    background-color: #F29F05;
+    background-color: #A240FC;
     -webkit-box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.6);
     -moz-box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.6);
     box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.6);
@@ -119,7 +119,7 @@ nav ul li a.active {
 }
 
 section {
-    background-color: #FFF;
+    background-color: rgb(236, 192, 255);
     min-height: 200px;
     padding: 20px 0;
     /* To push the footer till the end of the document
@@ -150,7 +150,7 @@ section {
 }
 
 section h2 {
-    color: #F29F05;
+    color: #A240FC;
     flex-basis: 100%;
     text-align: center;
 }
@@ -182,7 +182,7 @@ section .row a {
 
 section .row a:hover {
     text-decoration: underline;
-    color: #F29F05;
+    color: #A240FC;
 }
 
 /* index icons' style */
@@ -196,7 +196,7 @@ section .row a:hover {
 
 .aboutPar {
     font-size: 20px;
-    color: #666;
+    color: #6A0DC4;
     margin: 10px;
     flex-grow: 1;
     text-align: center;
@@ -207,7 +207,7 @@ section .row a:hover {
 /* START of footer commong styles */
 
 footer {
-    background-color: #0A2459;
+    background-color: #6A0DC4;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -283,7 +283,7 @@ footer p {
 .expCompany,
 .expPeriod,
 .expLocation {
-    color: gray;
+    color: #A240FC;
     margin: 3px 0;
 }
 
@@ -345,7 +345,7 @@ footer p {
 
 .projComponent p
 {
-    color: #666;
+    color: #A240FC;
     font-size: 16px;
     margin: 0;
     padding: 20px 0 10px;
@@ -365,7 +365,7 @@ footer p {
 
 .projComponent a:hover
 {
-    color: #F29F05;
+    color: #A240FC;
     text-decoration: underline;
     font-weight: bold
 }
@@ -439,20 +439,20 @@ footer p {
 }
 
 .postDate {
-    color: #bbb;
+    color: #A240FC;;
     margin: 0;
     font-size: 16px;    
 }
 
 .postReadMore {
     margin-top: 10px;
-    color: #bbb;
+    color: #A240FC;;
     text-decoration: underline;
     align-self: flex-end;
 }
 
 .postReadMore:hover {
-    color: #F29F05;
+    color: #6A0DC4;
 }
 
 .postWithImg {
@@ -461,7 +461,7 @@ footer p {
 }
 
 .postFooter {
-    color: #bbb;
+    color: #A240FC;
     display: flex;
     align-items: flex-end;
 }

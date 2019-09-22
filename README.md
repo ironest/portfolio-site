@@ -12,8 +12,6 @@ This repository contains my first professional online portfolio; it also serves 
 
 ### Purpose
 
-As an aspiring developer, it is important to be able to communicate and demonstrate your abilities to prospective employers. A great way to do this is to design, develop and deploy a website that showcases your talent, abilities and coding experience.
-
 **The most important** aspect of having an online portfolio, is to show my expertise and showcase my work. It could also be beneficial in making a good impression to potential employers.
 **Secondly**, it is desirable to have (or increase) an online presence so that, whoever looks up my name on a searching engine (e.g. google) my portfolio pops up. This will help me expanding my network and to develop my personal brand.
 **Lastly**, with just a URL, I can infinitely extend my resume, adding as much content as I want, shaping it in whatever creative way I prefer, stepping outside of the traditional/boring/conservative plain PDF (or piece of paper).
@@ -21,8 +19,12 @@ As an aspiring developer, it is important to be able to communicate and demonstr
 ### Functionality / features
 
   * Responsive Design
+  * Carousel of my working experience
+  * Blog post preview 
+  * Fade-In animation of elements outside the viewport
   * Fixed Navigation bar (in progress)
-
+  * World of Warcraft theme (available as a separete branch)
+  
 ### Sitemap
 
 The portfolio website is made of 4 webpages with landing page represented by the index.html which also serves as "About Me".

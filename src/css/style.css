@@ -69,7 +69,13 @@ header img {
 
 nav {
     height: 60px;
-    background-color: #F29F05;
+    background-color: rgb(107, 60, 21);
+
+    background-image: url("../img/nav_background.jpg"); /* The image used */
+    background-color: #4b4b4b; /* Used if the image is unavailable */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: 300px 300px;
+
     -webkit-box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.6);
     -moz-box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.6);
     box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.6);
@@ -110,16 +116,16 @@ nav ul li a {
 /* Hover effect on the links */
 
 nav ul li a:hover {
-    color: #0A2459;
+    color: rgb(236, 91, 55);
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 nav ul li a.active {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid rgb(236, 91, 55);
 }
 
 section {
-    background-color: #FFF;
+    background-color: rgb(111, 121, 114);
     min-height: 200px;
     padding: 20px 0;
     /* To push the footer till the end of the document
@@ -150,7 +156,7 @@ section {
 }
 
 section h2 {
-    color: #F29F05;
+    color: rgb(107, 60, 21);
     flex-basis: 100%;
     text-align: center;
 }
@@ -175,14 +181,14 @@ section .row {
 
 section .row a {
     text-decoration: none;
-    color: #666;
+    color: #333;
 }
 
 /* Changing color on the "Download my resume" link */
 
 section .row a:hover {
     text-decoration: underline;
-    color: #F29F05;
+    color: rgb(107, 60, 21);
 }
 
 /* index icons' style */
@@ -196,7 +202,7 @@ section .row a:hover {
 
 .aboutPar {
     font-size: 20px;
-    color: #666;
+    color: #333;
     margin: 10px;
     flex-grow: 1;
     text-align: center;
@@ -207,7 +213,10 @@ section .row a:hover {
 /* START of footer commong styles */
 
 footer {
-    background-color: #0A2459;
+    background-image: url("../img/nav_background.jpg"); /* The image used */
+    background-color: #4b4b4b; /* Used if the image is unavailable */
+    background-repeat: repeat; /* Do not repeat the image */
+
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -283,7 +292,7 @@ footer p {
 .expCompany,
 .expPeriod,
 .expLocation {
-    color: gray;
+    color: #bbb;
     margin: 3px 0;
 }
 
@@ -345,7 +354,7 @@ footer p {
 
 .projComponent p
 {
-    color: #666;
+    color: #333;
     font-size: 16px;
     margin: 0;
     padding: 20px 0 10px;
@@ -365,7 +374,7 @@ footer p {
 
 .projComponent a:hover
 {
-    color: #F29F05;
+    color: rgb(107, 60, 21);
     text-decoration: underline;
     font-weight: bold
 }
@@ -452,7 +461,7 @@ footer p {
 }
 
 .postReadMore:hover {
-    color: #F29F05;
+    color: rgb(107, 60, 21);
 }
 
 .postWithImg {

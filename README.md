@@ -19,11 +19,26 @@ This repository contains my first professional online portfolio; it also serves 
 ### Functionality / features
 
   * Responsive Design
+  The website is well structured and perfectly adapts to any device, without cutting any content from the viewport:
+    * Smartphones
+    * Tablet
+    * Laptop
   * Carousel of my working experience
-  * Blog post preview 
+  Employers and Clients I worked for automatically scroll in a smooth carousel. Optionally, a user can interrupt the scroll by manually drag cards back and forth.
+  * Blog post preview
+  The 'blog' webpage provides a list of posts, showing:
+    * Author name and avatar
+    * Published date
+    * Title of the post
+    * Preview of the first line/lines of the post
+    * Special button 'read more' to expand the post, revealing more text and imagages.
   * Fade-In animation of elements outside the viewport
-  * Fixed Navigation bar (in progress)
-  * World of Warcraft theme (available as a separete branch)
+    * As a webpage loads, not all the content is visible at once, because it might be outside the viewport. As soon as a user scrolls further down, more content appears in a smooth animation 'fade-in'
+  * Extra themes and color/themes
+  As part of the assesment, 3 more branches were requested to be created:
+    * ghetto-style
+    * warcraft
+    * purples
   
 ### Sitemap
 
@@ -73,10 +88,10 @@ The process involved using the following tools/tech:
 
 ### Wireframes
 
-The process used to create the portfolio project followed the approach defined as "Mobile First".
-This is a popular trend within the UX design and development communities. In short, the paradigm means designing a site (or an app) for mobile before designing it for the desktop Web—or any other device.
+In the creation of my ‘portfolio project’, I implemented **mobile first** design principles. Mobile first, is a popular trend within the UX design and development communities. This paradigm involves designing a site (or an app) for mobile user initially and then scaling up for larger devices.
+When implementing my wireframes (see below), I relied heavily on the use of **Flexbox** layouts. Flexbox, was the best solution as it gave me the ability to alter the height, width and order of my containers to best use the available space.
+Due to the utility of Flexbox, once I implemented by mobile design, I was able to scale for desktop without needing to create an additional wireframe.
 
-While implementing below wireframes, I made large use of the FLEXBOX layout which ended up being the best choice as it gave my containers the ability to alter their width/height (and order) to best fill the available space. Due to this great advantage, after finishing the mobile implementation, I did not have to go through any wireframe design for the desktop media.
 
 <img src="./docs/wireframe_mobile.png" alt="Screenshot of mobile wireframes" />
 

@@ -68,3 +68,37 @@ The process involved using the following tools/tech:
      * Git 
      * GitHub
      * Netlify
+
+## Project Management
+
+### Wireframes
+
+The process used to create the portfolio project followed the approach defined as "Mobile First".
+This is a popular trend within the UX design and development communities. In short, the paradigm means designing a site (or an app) for mobile before designing it for the desktop Web—or any other device.
+
+While implementing below wireframes, I made large use of the FLEXBOX layout which ended up being the best choice as it gave my containers the ability to alter their width/height (and order) to best fill the available space. Due to this great advantage, after finishing the mobile implementation, I did not have to go through any wireframe design for the desktop media.
+
+<img src="./docs/wireframe_mobile.png" alt="Screenshot of mobile wireframes" />
+
+### Trello
+
+Day 1 (17 September 2019)
+This was the official project start date; I spent few hours assembling requirements and ideas around the main objective:
+  * index page could be a summary, or about me
+  * Projects or work experience or studies/education
+  * Blog with at least 5 sample posts (placeholder text can be used), blog posts need to have at least ONE image each
+  * A contact page with a big form taking the majority of the page
+
+<img src="./docs/trello_01.png" />
+
+Day 3
+
+<img src="./docs/trello_02.png" />
+
+Day 4
+
+<img src="./docs/trello_03.png" />
+
+Day 6 (morning)
+
+<img src="./docs/trello_04.png" />

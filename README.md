@@ -32,10 +32,10 @@ From there, any other webpage is reacheable through the navigation bar.
 
 ### Screenshots
 
-<img src="./docs/screenshot_index.png" alt="Screenshot of the index webpage" width="250" />
-<img src="./docs/screenshot_experience.png" alt="Screenshot of the experience webpage" width="250" />
-<img src="./docs/screenshot_projects.png" alt="Screenshot of the projects webpage" width="250" />
-<img src="./docs/screenshot_blog.png" alt="Screenshot of the blog webpage" width="250" />
+<img src="./docs/screenshot_index.png" alt="Screenshot of the index webpage" width="150" />
+<img src="./docs/screenshot_experience.png" alt="Screenshot of the experience webpage" width="150" />
+<img src="./docs/screenshot_projects.png" alt="Screenshot of the projects webpage" width="150" />
+<img src="./docs/screenshot_blog.png" alt="Screenshot of the blog webpage" width="150" />
 
 ### Target audience
 
